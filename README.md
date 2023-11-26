@@ -87,7 +87,7 @@ Non-interactive mode: ```echo "/bin/ls" | ./hsh```
 
 ```
  $ echo "/bin/ls" | ./hsh
- execute_args.c  new_process.c  own_exit.c   read_stream.c        shell_no_interactive.c
-hsh             own_cd.c       own_help.c   shell.h              split_line.c
-main.c          own_env.c      read_line.c  shell_interactive.c
+ execute_args.c  new_process.c  my_exit.c   read_stream.c        shell_no_interactive.c
+hsh             my_cd.c       my_help.c   shell.h              split_line.c
+main.c          my_env.c      read_line.c  shell_interactive.c
 ```
